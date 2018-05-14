@@ -1,0 +1,370 @@
+html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body{
+	min-height: 100%;
+	min-width: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+}
+
+#header{
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo{
+	flex-basis: 10%;
+	margin-left: 5%;
+}
+
+#logo > img{
+	width: 100%;
+}
+
+#header > .navbar{
+	display: flex;
+	justify-content: flex-end;
+	flex-basis: 90%;
+	margin-right: 20%;
+}
+
+.navbar > a{
+	margin-right: 5%;
+}
+
+.here{
+	color: #f05922;
+}
+
+#footer{
+	width: 100%;
+	text-align: center;
+	background-color: rgb(211,211,211);
+	font-size: 12px;
+}
+
+#copyright{
+	padding-bottom: 0.5%;
+}
+
+.nospace{
+	margin: 0;
+	padding: 0;
+}
+
+#landing{
+	background-image: url("landing.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: center;
+}
+
+.content{
+	flex-grow: 1;
+	display: flex;
+	justify-content: space-around;
+}
+
+#inputarea{
+	background-color: rgb(240,240,240);
+	display: flex;
+	flex-direction: column;
+}
+
+#cityroom{
+	display: flex;
+	justify-content: space-around;
+	padding: 2% 2% 0 2%;
+}
+
+#ldates{
+	display: flex;
+	justify-content: space-around;
+	padding: 2% 2% 0 2%;
+	text-align: center;
+}
+
+#button{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 2%;
+}
+
+.left{
+	display: flex;
+	flex-flow: column;
+	padding: 5%;
+}
+
+.selectoptions{
+	display: flex;
+	flex-flow: column;
+	margin: 3%;
+}
+
+#dates{
+	margin: 3%;
+}
+
+.left > h4{
+	color: #f05922;
+	
+}
+
+.searchform  > button{
+	background-color:#f05922;
+	color: white;
+	width: 50%;
+	align-self: center;
+}
+
+.fa-star{
+	color: orange;
+}
+
+.right{
+
+	display: flex;
+	flex-flow: column;
+	padding: 5%;
+	width: 50%;
+}
+
+.rheader{
+	background-color: #f05922;
+	padding-left: 1%;
+}
+
+.rheader > h4{
+	color: white;
+}
+
+.listings{
+	margin: 3%;
+	display: flex;
+	flex-flow: column;
+}
+
+.listitem{
+	display: flex;
+	flex-flow: column;
+	margin-bottom: 5%;
+}
+
+.basic{
+	display: flex;
+}
+
+#roomphoto{
+	flex-basis: 60%;
+	align-self: flex-start;
+}
+
+#roomphoto > img{
+	width: 100%;
+}
+
+#roominfo{
+	margin-left: 3%;
+	padding-left: 3%;
+	flex-basis: 90%;
+}
+
+#roominfo > h3{
+	font-size: 80%;
+	color: black;
+}
+
+#roominfo > h4{
+	font-size: 75%;
+	color:rgb(200,200,200);
+}
+
+#roominfo > p{
+	font-size: 70%;
+}
+
+#roombutton{
+	display: flex;
+	justify-content: center;
+}
+
+.gotoroom{
+	background-color: #f05922;
+	color: white;
+}
+
+#roomdetails{
+	display: flex;
+	justify-content: space-between;	
+	margin-top: 2%;
+}
+
+#pricebox{
+	width: 30%;
+	text-align: center;
+	background-color:rgb(185,185,185);
+	color: white;
+	font-size: 80%;
+	align-self: flex-start;
+}
+
+.detailsbox{
+	display: flex;
+	justify-content: space-around;
+	background-color:rgb(230,230,230);
+	width: 65%;
+	font-size: 80%;
+}
+
+
+.details{
+	border-right: 0.5px solid;
+	padding-left: 1%;
+	padding-right: 5%;
+	font-size: 80%;
+}
+
+.details:last-child{
+	border: none;
+}
+
+#roompage{
+	flex-flow: column;
+	justify-content: center;
+}
+
+#room{
+	display: flex;
+	flex-flow: column;
+	width: 60%;
+	align-self: center;
+}
+
+#topbar{
+	background-color: #f05922;
+	display: flex;
+	justify-content: space-between;
+}
+
+#topbar p, .fa-heart{
+	color: white;
+}
+
+.fa-star{
+	color: orange;
+}
+
+#fav{
+	margin: 1% 0 1% 0;
+}
+
+.topinfo{
+	border-right: 4px groove rgb(211,211,211);
+	padding-right: 8%;
+	padding-left: 2%;
+	margin: 1% 0;
+}
+
+.topinfo:last-child{
+	border: none;
+	padding-right: 3%;
+}
+
+#images{	
+	align-self: flex-start;
+	padding: 1% 0;
+	display: flex;
+	width: 100%;
+}
+
+#roompic > img{
+	width: 60%;
+}
+
+#map{
+	width: 70%;
+}
+
+#information{
+	background-color: #f05922;
+	display: flex;
+}
+
+.info{
+	width: 25%;
+	border-right: 1px dotted white;
+	margin: 1% 0;
+}
+
+.info > p{
+	color: white;
+	font-size: 60%;
+	text-align: center;
+}
+
+.info:last-child{
+	border: none;
+}
+
+#description{
+	padding-top: 1%;
+}
+
+#description > h2{
+	font-size: 100%;
+}
+
+#description > p{
+	font-size: 95%;
+}
+
+#book{
+	display: flex;
+	flex-flow: column;
+}
+
+#book > button{
+	background-color: #f05922;
+	color: white;
+	align-self: flex-end;
+}
+
+#reviews{
+	margin-top: 2%;
+	padding-left: 2%;
+	border-left: 2px solid #f05922;
+}
+
+.head{
+	font-size: 100%;
+}
+
+#reviews h3{
+	font-size: 95%;
+}
+
+#addreview{
+	padding-left: 2%;
+	border-left: 2px solid #f05922;
+	margin: 3% 0;
+}
+
+#revbut{
+	margin: 2%;
+	margin-left: 4%;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+}
+
+#revbut > button{
+	background-color: #f05922;
+	color: white;
+}
+
