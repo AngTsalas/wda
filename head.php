@@ -25,7 +25,7 @@
 <body>
 	<div id="header">
 		<span id="logo">
-			<img src="wda.png"></img>
+			<img src="images/wda.png"></img>
 		</span>
 
 		<span class="navbar">
